@@ -1,0 +1,25 @@
+[project]
+name = "evals"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "maramasaeva", email = "maramasaeva@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.121.0",
+    "google-genai>=2.17.0",
+    "inspect-ai>=0.3.253",
+    "openai>=2.53.0",
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.0",
+    "python-dotenv>=1.2.2",
+]
+
+[project.scripts]
+evals = "evals:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
