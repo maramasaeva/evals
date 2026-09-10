@@ -14,3 +14,4 @@ wheels/
 
 # Inspect eval logs
 logs/
+.DS_Store
