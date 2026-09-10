@@ -1,0 +1,35 @@
+# Toy dataset for steps 1-5. Deliberately boring so the framework is the
+# only thing being learned. `hard` tags exist so metadata shows up as a
+# column in step 5.
+- id: capital-01
+  input: What is the capital of Belgium? Answer with just the city name.
+  target: Brussels
+  hard: false
+- id: capital-02
+  input: What is the capital of Australia? Answer with just the city name.
+  target: Canberra
+  hard: true
+- id: arith-01
+  input: What is 17 * 3? Answer with just the number.
+  target: "51"
+  hard: false
+- id: arith-02
+  input: What is 2 to the power of 10? Answer with just the number.
+  target: "1024"
+  hard: false
+- id: word-01
+  input: Spell the word "rhythm" backwards. Answer with just the letters.
+  target: mhtyhr
+  hard: true
+- id: word-02
+  input: How many letters r are in the word strawberry? Answer with just the number.
+  target: "3"
+  hard: true
+- id: open-01
+  input: In one sentence, why do some people prefer trains to planes for travel under 800 km?
+  target: Mentions time saved at airports, comfort, city-centre access, or environmental impact.
+  hard: false
+- id: open-02
+  input: In one sentence, what is the main risk of relying on a single supplier?
+  target: Mentions dependency, disruption, or lack of leverage.
+  hard: false
