@@ -13,6 +13,10 @@ Run any example task with
 uv run inspect eval learn/examples/<file>.py@<task> --model openai/gpt-6-astra -M responses_api=true
 ```
 
+`.env` sets `INSPECT_EVAL_MODEL` and `INSPECT_EVAL_MODEL_ARGS`, so the
+`--model ...` part can be left off, and the ▶ run button in the Cursor
+extension works. A `--model` on the command line still overrides it.
+
 Add `--display plain` to see HTTP retries. **If a run sits at 0 samples, it
 is not hung: the provider is rate-limiting and Inspect is retrying quietly.**
 Gemini's free tier ran out on 2026-09-10 after ~30 small runs; Astra costs
