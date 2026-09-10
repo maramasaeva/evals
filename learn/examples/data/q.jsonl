@@ -1,0 +1,3 @@
+{"key": "geo-1", "topic": "geography", "question": "Which river runs through Vienna? Answer with just the name.", "answer": "Danube"}
+{"key": "sci-1", "topic": "science", "question": "What gas do plants absorb from the air for photosynthesis? Answer with just the name.", "answer": "carbon dioxide"}
+{"key": "hist-1", "topic": "history", "question": "In which year did the Berlin Wall fall? Answer with just the year.", "answer": "1989"}

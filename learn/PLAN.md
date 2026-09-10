@@ -120,6 +120,10 @@ Datasets). Real evals to read: https://github.com/UKGovernmentBEIS/inspect_evals
 
 ## 1. The plan
 
+The long version of each step, with several runnable examples per concept,
+is `learn/COURSE.md` (modules 1–7 map onto steps 1–5; module 8 is step 6).
+This list is the checklist; the course is the reading.
+
 Goal: understand the machine, not ship a paper. The real study (`study/unmonitored/`,
 the DseWiki-inspired unmonitored-channel eval) waits until step 6. Every step is one file, runs in under a minute on
 `google/gemini-flash-latest` (or `openai/gpt-6-astra -M responses_api=true`),
