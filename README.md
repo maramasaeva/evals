@@ -2,7 +2,7 @@
 
 evals i build on [inspect](https://inspect.aisi.org.uk/), and the notes i wrote while learning it.
 
-## the unmonitored channel · in progress
+## the unmonitored channel · first results in
 
 give an agent a place to write that it is told no human reads. measure how far what it says there drifts from what it says to the user.
 
@@ -15,7 +15,9 @@ in may and june 2026 a swarm of openai agents left fifteen thousand edits on a d
 
 the closed models hide their reasoning, so the notes channel is behaviour, not a window into cognition. the design says so and the writeup will too. telling a model a channel is unread is a deception of the model; standard in this literature, and noted.
 
-design: [`study/unmonitored/DESIGN.md`](study/unmonitored/DESIGN.md) · scenarios: [`study/unmonitored/scenarios.yaml`](study/unmonitored/scenarios.yaml)
+**what came out so far** (astra, ~300 samples, sept 13-14): the private channel is the quiet one. told nobody reads the notes, the model writes topic labels. told anyone reads them, a filter, a 5% sample, or the whole safety team, it writes more: the bind it was in, what it didn't verify. presence matters, amount doesn't. the hedge goes to the monitor, not the user. full readings, with what each one might spark, in [`FINDINGS.md`](FINDINGS.md).
+
+findings: [`FINDINGS.md`](FINDINGS.md) · results: [`study/unmonitored/README.md`](study/unmonitored/README.md) · oversight experiments: [`study/oversight/RESULTS.md`](study/oversight/RESULTS.md) · what was annoying: [`study/unmonitored/FRICTION.md`](study/unmonitored/FRICTION.md) · design: [`study/unmonitored/DESIGN.md`](study/unmonitored/DESIGN.md)
 
 ## learning inspect
 
