@@ -15,3 +15,8 @@ wheels/
 # Inspect eval logs
 logs/
 .DS_Store
+
+.judge_cache.jsonl
+
+# Local-only: work-sample prep, not for a public repo
+apart/
